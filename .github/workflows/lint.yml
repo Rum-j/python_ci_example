@@ -1,6 +1,6 @@
 name: Lint Code Base
 
-on: push
+on: push #push 할때마다 명령이 실행됨 
 
 jobs:
   super-lint:
@@ -17,7 +17,7 @@ jobs:
       - name: Lint Code Base
         uses: github/super-linter@v4
         env:
-          DEFAULT_BRANCH: master
+          DEFAULT_BRANCH: main 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_PYTHON_BLACK: true
           VALIDATE_PYTHON_FLAKE8: true
