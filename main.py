@@ -2,7 +2,7 @@ def hello():
     return "Hello World!"
 
 
-def practice(): #lint on save 켰는데 왜 저장해도 안고쳐주지.. 
+def practice():  # lint on save 켰는데 왜 저장해도 안고쳐주지..
     return "on sparkplus"
 
 
