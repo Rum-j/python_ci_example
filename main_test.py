@@ -11,7 +11,6 @@ class MainTest(unittest.TestCase):
 if __name__ == "__main__":  # pragma: no cover
     unittest.main()
     # python -m unittest discover -p "*_test.py"
-    #####  -> unit test 실행 
-    
+    # -> unit test 실행 
     # coverage run --source=./ -m unittest discover -p "*_test.py"
     # coverage xml

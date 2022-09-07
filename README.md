@@ -18,10 +18,16 @@ on VSC
 - test: automatically test files (on initial setting, unitttest - *_test.py is selected)
 - you can test files when you click test above the list of files
 
+on code climate
+- ```python
+if __name__ == "__main__":  # pragma: no cover " 
+``` 
+    means unittest skip
 
 ## python-ci-example
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/04542144c2d0382feff1/maintainability)](https://codeclimate.com/github/chris-chris/python-ci-example/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/04542144c2d0382feff1/test_coverage)](https://codeclimate.com/github/chris-chris/python-ci-example/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/86d84e5077181b241ef9/maintainability)](https://codeclimate.com/github/Rum-j/python_ci_example/maintainability)[![Test Coverage](https://api.codeclimate.com/v1/badges/86d84e5077181b241ef9/test_coverage)](https://codeclimate.com/github/Rum-j/python_ci_example/test_coverage)
+
 
 
 ## How to run?
@@ -35,4 +41,3 @@ $ python main.py
 ```sh
 $ python -m unittest discover -p "*_test.py"
 ```
-d
