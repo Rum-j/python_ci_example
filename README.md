@@ -19,10 +19,11 @@ on VSC
 - you can test files when you click test above the list of files
 
 on code climate
-- ```python
+- code in bewlo means unittest skip
+```python
 if __name__ == "__main__":  # pragma: no cover " 
 ``` 
-    means unittest skip
+    
 
 ## python-ci-example
 
